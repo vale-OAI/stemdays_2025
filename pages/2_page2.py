@@ -31,7 +31,7 @@ import streamlit as st
 import pandas as pd
 
 # Carica il file CSV dal progetto
-df = pd.read_csv("../../../Downloads/DASHBOARD-stemdays/DASHBOARD/2_pagina2/popularity_lyrics.csv")
+df = pd.read_csv("popularity_lyrics.csv")
 
 # Mostra la tabella
 st.dataframe(df)
@@ -44,7 +44,7 @@ import matplotlib.pyplot as plt
 
 
 # Carica il file CSV che contiene i dati
-df = pd.read_csv('../../../Downloads/DASHBOARD-stemdays/DASHBOARD/2_pagina2/sample_lyrics_and_music_feature.csv')
+df = pd.read_csv('sample_lyrics_and_music_feature.csv')
 
 #Grafico 1 Istogramma della popolarità
 plt.hist(df['popularity'],color='mediumvioletred', bins=14)
@@ -85,7 +85,7 @@ import streamlit as st
 st.title("Analisi dei dati di popolarità musicale")
 
 # Caricamento del file CSV
-df = pd.read_csv('../../../Downloads/DASHBOARD-stemdays/DASHBOARD/2_pagina2/sample_lyrics_and_music_feature.csv')
+df = pd.read_csv('sample_lyrics_and_music_feature.csv')
 
 # --- Grafico 1: Istogramma della popolarità ---
 st.subheader("Distribuzione della Popolarità")
