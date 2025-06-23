@@ -125,6 +125,4 @@ def pagina_generi():
                     st.write(f"{row['track_genre']}: {row['count']} ascolti")
 
 
-# Avvio dell'app se runnato direttamente
-if __name__ == "__main__":
-    pagina_generi()
+pagina_generi()
