@@ -119,7 +119,7 @@ def pagina_generi():
         with col2:
             st.subheader(f"Dopo il {choose_year}")
             if dati_dopo.empty:
-                st.write("Nessun dato.")
+                st.write("Nessun dato. ")
             else:
                 for i, row in dati_dopo.iterrows():
                     st.write(f"{row['track_genre']}: {row['count']} ascolti")
