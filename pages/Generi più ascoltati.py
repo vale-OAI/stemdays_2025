@@ -88,7 +88,7 @@ def pagina_generi():
         st.markdown(f"<h3 style='color:#C45C86;'>Generi più ascoltati dopo l'anno {anno_scelto}</h3>", unsafe_allow_html=True)
         generi = somma_generi(dati_dopo, lambda anno: anno > anno_scelto)
         if not generi:
-            st.write("Nessun dato disponibile")
+            st.write("Nessun dato disponibile.")
         else:
             for genere, val in generi.items():
                 st.write(f"{genere}: {val} ascolti")
