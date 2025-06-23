@@ -66,7 +66,7 @@ def pagina_generi():
     )
 
     # Selezione anno e cutoff
-    anni_disponibili = sorted(df['year'].unique())
+    anni_disponibili = [1970, 1980, 1990, 2000, 2010, 2020]
     choose_year = st.selectbox("Seleziona l'anno", anni_disponibili)
     cutoff = st.slider("Escludi i generi meno frequenti (in %)", 1, 10, 6)
 
