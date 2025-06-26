@@ -22,7 +22,7 @@ if __name__=='__main__':
 st.title("Ranking canzoni popolari 🎵")
 st.markdown(
     """ 
-    Viene presentata una **tabella** che elenca le **12 canzoni** più **popolari** su Spotify **dal 1937 al 2022 📋**.
+    Viene presentata una **tabella** che elenca le **12 canzoni** più **popolari** su Spotify **dal 1973 al 2022 📋**.
     """
 )
 

@@ -61,7 +61,7 @@ def pagina_generi():
     st.markdown("<h1>Generi più ascoltati in base all'anno!</h1>", unsafe_allow_html=True)
     st.markdown(
         "<p class='descrizione'>Ti chiedi come siano cambiati i gusti musicali delle persone nel tempo? "
-        "Scegli uno degli anni proposti e potrai analizzare attraverso i nostri grafici la variazione delle preferenze!</p>",
+        "Scegli uno degli anni proposti e potrai analizzare attraverso i nostri grafici la variazione dei generi pubblicati ogni anno!!</p>",
         unsafe_allow_html=True
     )
 

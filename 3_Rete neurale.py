@@ -10,7 +10,6 @@ from tensorflow.keras import layers
 from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay
 import matplotlib.pyplot as plt
 
-# Carica dati
 df = pd.read_csv("sample_lyrics_and_music_feature.csv")
 
 # Seleziona le colonne rilevanti
@@ -21,6 +20,7 @@ df = df[features + ['tag', 'track_name', 'artists']].dropna()
 
 # Interfaccia
 st.title("🎧 Neural Network Genre Classifier")
+# Carica dati
 
 st.write("Scegli due generi musicali per addestrare il modello e vedere come classifica le canzoni.")
 
